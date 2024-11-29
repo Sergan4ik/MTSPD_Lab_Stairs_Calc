@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2436499de8f3423c9f5109a0a104d0af, type: 3}
+  m_Name: CoverMaterials
+  m_EditorClassIdentifier: 
+  materials:
+  - Id: Ceramic Tiles (8mm)
+    price: 1.5
+    density: 16
+    material: {fileID: 2100000, guid: c18631ac74d3d2b4488c87e429c5781f, type: 2}
+  - Id: Porcelain Tiles (10mm)
+    price: 1.75
+    density: 20
+    material: {fileID: 2100000, guid: cf3da56f55dc78845aa9ee532679ca9a, type: 2}
+  - Id: Laminate (10mm)
+    price: 1
+    density: 8
+    material: {fileID: 2100000, guid: 74c7b8e3ed8d60740ad629198f468a2e, type: 2}
+  - Id: Hardwood (20mm Oak)
+    price: 3
+    density: 14
+    material: {fileID: 2100000, guid: fb6b7ccecbc0051419eb61f0e99f6443, type: 2}
+  - Id: Softwood (20mm Pine)
+    price: 2
+    density: 9
+    material: {fileID: 2100000, guid: a7f4b3a80cce5544186fb7a62b8fabb2, type: 2}
+  - Id: Carpet (5mm)
+    price: 1.25
+    density: 1.5
+    material: {fileID: 2100000, guid: ee19e7bdbd2923340aa8973e1d4230b1, type: 2}
+  - Id: Vinyl (3mm)
+    price: 0.75
+    density: 3.6
+    material: {fileID: 2100000, guid: 5099774cca9871c44b1a74846d7b5d11, type: 2}
+  - Id: Natural Stone (Marble, 15mm)
+    price: 7.5
+    density: 40.5
+    material: {fileID: 2100000, guid: d7808e852e08b934aa5b9fdcae5d0ecd, type: 2}
+  - Id: Granite (15mm)
+    price: 6
+    density: 40.5
+    material: {fileID: 2100000, guid: cfd22c3f14ed7cd43ae1d0bdde543ae4, type: 2}
+  - Id: Glass (12mm)
+    price: 4
+    density: 30
+    material: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}

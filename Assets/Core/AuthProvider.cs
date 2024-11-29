@@ -1,6 +1,18 @@
 namespace StairsCalc
 {
-    public class AuthProvider
+    public interface IAuthProvider
+    {
+        public bool Login(string emailOrId, string password);
+        public bool Register(string email, string password);
+    }
+    
+    public interface IAuthAdminProvider
+    {
+        public void AddAdmin(string id, string password);
+        public bool IsAdmin(string emailOrId);
+        public bool LoginAdmin(string id, string password);
+    }
+    public class AuthProvider : IAuthProvider, IAuthAdminProvider
     {
         private readonly UsersDB _db;
 
